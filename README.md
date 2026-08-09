@@ -197,7 +197,7 @@ moc2pdf/
 
 See [`PLAN.md`](./PLAN.md) for full detail. Short version:
 
-- [ ] **Phase 0** — repo scaffold, fixture vault, data models
+- [x] **Phase 0** — repo scaffold, fixture vault, data models
 - [ ] **Phase 1** — MVP: flat single-MOC export with working internal links
 - [ ] **Phase 2** — nested MOCs, image embeds, generated TOC, callout styling
 - [ ] **Phase 3** — config file, themes, frontmatter metadata, footnotes
