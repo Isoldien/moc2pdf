@@ -1,4 +1,4 @@
-# moc2pdf — Obsidian MOC → PDF Exporter
+# moc2pdf
 
 Turn a Zettelkasten Map of Content (MOC) and everything it links to into a single, properly
 formatted PDF with **working internal hyperlinks** — for submitting to systems that don't support
