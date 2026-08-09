@@ -13,6 +13,10 @@ hyperlinks (so `[[wikilinks]]` become real, clickable PDF links/bookmarks). Full
 lives in `PLAN.md` — **read that before implementing anything**, it explains *why* the architecture
 is shaped the way it is, not just what the shape is.
 
+**Before starting any task, read `CONTEXT.md` first.** It's the current-state snapshot — what's
+actually built, what's decided, what's next — and is more likely to be accurate about *today's*
+state than assuming from the repo structure alone. Update it when you finish a task.
+
 ## Role Expectation
 
 The repo owner is a university CS student building this to actually learn from, not just to have
