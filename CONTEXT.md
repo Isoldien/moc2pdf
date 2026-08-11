@@ -83,6 +83,11 @@ At the end of a work session (or when an agent finishes a task), update:
    tested*, not just written
 3. **Key Decisions** — append a row if a new deliberate choice was made
 4. **Immediate Next Step** — replace with whatever's genuinely next
+5. **Understanding check** — for anything moved into "Done" that's a core pipeline stage (not
+   boilerplate/config): could you re-derive it, out loud, without opening the file? If not, that's
+   not a documentation gap, it's a signal to revisit the module with more of your own hands on it
+   before calling it done. See `AGENTS.md` → Role Expectation for the assistance-vs-dependence
+   guardrails this is meant to enforce.
 
 Keep entries factual and short — this file is a snapshot, not a changelog. Git history already
 covers the "how we got here"; this file only needs to answer "where are we now."

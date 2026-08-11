@@ -1,4 +1,4 @@
-# moc2pdf
+# moc2pdf — Obsidian MOC → PDF Exporter
 
 Turn a Zettelkasten Map of Content (MOC) and everything it links to into a single, properly
 formatted PDF with **working internal hyperlinks** — for submitting to systems that don't support
@@ -197,7 +197,7 @@ moc2pdf/
 
 See [`PLAN.md`](./PLAN.md) for full detail. Short version:
 
-- [x] **Phase 0** — repo scaffold, fixture vault, data models
+- [ ] **Phase 0** — repo scaffold, fixture vault, data models
 - [ ] **Phase 1** — MVP: flat single-MOC export with working internal links
 - [ ] **Phase 2** — nested MOCs, image embeds, generated TOC, callout styling
 - [ ] **Phase 3** — config file, themes, frontmatter metadata, footnotes
@@ -212,10 +212,14 @@ anyone who wants to run or poke at the code. If you're working from this repo, o
 PR describing the vault feature you're trying to support — Obsidian's Markdown flavour has a lot
 of edge cases and it's easier to fix them one at a time with a concrete example.
 
+Development on this repo uses AI assistance deliberately and openly (see `AGENTS.md`), with the
+explicit goal of *assistance rather than dependence* — design review over full generation, and
+explanation-first for fixes rather than paste-and-move-on. Worth knowing if you're reading the
+source expecting a particular authorship pattern.
+
 ## License
 
-Licensed under the [GNU General Public License v3.0](./LICENSE) — chosen deliberately so that this
-project, and anything forked or built on top of it, stays open source.
+Licensed under the [GNU General Public License v3.0](./LICENSE)
 
 ## Acknowledgements
 
